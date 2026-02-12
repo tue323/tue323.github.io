@@ -8,24 +8,34 @@ collection: portfolio
 
 Designed and optimized aerodynamic surfaces to maximize downforce efficiency and improve vehicle cornering stability.
 
-gallery:
-  - image_path: rearwing-cfd
-    alt: "CFD Pressure Contours"
-    title: "ANSYS Fluent Pressure Distribution"
+<div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; text-align: center;">
 
-  - image_path: rearwing-cad-model
-    alt: "SolidWorks Model"
-    title: "Parametric CAD Model"
+  <div style="flex: 1; min-width: 250px;">
+    <a href="{{ site.baseurl }}rearwing-cfd" target="_blank">
+      <img src="{{ site.baseurl }}rearwing-cfd" style="width: 100%; border-radius: 8px;" />
+    </a>
+    <p><strong>CFD Pressure Contours</strong><br>
+    ANSYS Fluent validation of downforce distribution</p>
+  </div>
 
-  - image_path: rearwing-fcm
-    alt: "Rear Wing + Swan Neck with Chassis"
-    title: "Rear Wing Integration with Chassis
----
+  <div style="flex: 1; min-width: 250px;">
+    <a href="{{ site.baseurl }}rearwing-cad-model" target="_blank">
+      <img src="{{ site.baseurl }}rearwing-cad-model" style="width: 100%; border-radius: 8px;" />
+    </a>
+    <p><strong>Parametric CAD Model</strong><br>
+    SolidWorks assembly optimized for manufacturability</p>
+  </div>
 
-## Rear Wing Development
+  <div style="flex: 1; min-width: 250px;">
+    <a href="{{ site.baseurl }}rearwing-fcm" target="_blank">
+      <img src="{{ site.baseurl }}rearwing-fcm" style="width: 100%; border-radius: 8px;" />
+    </a>
+    <p><strong>Carbon Fiber Layup</strong><br>
+    Wet layup fabrication and routing process</p>
+  </div>
 
-{% include gallery %}
----
+</div>
+
 
 ### Engineering Highlights
 
