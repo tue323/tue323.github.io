@@ -8,8 +8,23 @@ collection: portfolio
 
 Designed and optimized aerodynamic surfaces to maximize downforce efficiency and improve vehicle cornering stability.
 
-<img width="400" src="https://github.com/user-attachments/assets/18b81b83-017e-46d3-ab9c-0edcd7eb77e3" />
+gallery:
+  - image_path: rearwing-cfd
+    alt: "CFD Pressure Contours"
+    title: "ANSYS Fluent Pressure Distribution"
 
+  - image_path: rearwing-cad-model
+    alt: "SolidWorks Model"
+    title: "Parametric CAD Model"
+
+  - image_path: rearwing-fcm
+    alt: "Rear Wing + Swan Neck with Chassis"
+    title: "Rear Wing Integration with Chassis
+---
+
+## Rear Wing Development
+
+{% include gallery %}
 ---
 
 ### Engineering Highlights
